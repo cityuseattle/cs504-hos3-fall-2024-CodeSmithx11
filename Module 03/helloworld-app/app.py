@@ -56,3 +56,6 @@ def delete_students_details(Student_name):
     except Exception as e:
         print("Error while removing record:", e)
         return 'Error while removing record', 400
+
+if __name__ == '__main__':
+    app.run(port=5001)

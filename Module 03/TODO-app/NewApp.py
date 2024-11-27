@@ -68,5 +68,3 @@ def debug_tasks():
     # Pretty-print the tasks with json.dumps
     return Response(json.dumps(to_do_list, indent=2), mimetype='application/json')
 
-if __name__ == '__main__':
-    app.run(port=5000)
